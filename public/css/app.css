@@ -1,0 +1,13 @@
+.button {
+  background-color: tomato;
+}
+
+.container {
+  border: 1px solid blue;
+}
+
+@media (max-width: 600px) {
+  .container {
+    border: 1px solid green;
+  }
+}
